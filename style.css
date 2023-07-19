@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    border:border-box;
+    /* padding: 0px; */
+    /* background-color: ; */
+    
+}
+body{
+    background-image: url(a\ vibrant\ starry\ night\ sky\ \(1\).jpg);
+    background-size: cover;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    width:100vw;
+    height:100vh
+}
+.headear{
+    /* text-align: center; */
+    /* position: absolute; */
+    height:6rem;
+    /* width: 100vw; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    /* border: 2px solid black; */
+    /* background-blend-mode: screen; */
+    /* margin-left: 100px;
+    margin-right: 200px; */
+    /* color: rebeccapurple; */
+    font-size:25px;
+
+}
+.box1{
+    width: 100vw;
+    height:60vh;
+     /* border: 2px solid rgb(205, 23, 23);  */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: end;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.box2{
+    /* position: absolute; */
+    /* left: 200px; */
+    /* top: 100px; */
+    width: 30%;
+    height: 90%;
+    border: 2px solid black; 
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif
+}
+.box3{
+    width: 30%;
+    height: 90%;
+    border: 2px solid black; 
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img1{
+    width:200px;
+    /* border: 1px solid brown; */
+    height: 200px;
+    background-image:url(dice-06.png);
+    background-size:cover;
+}
+.img2{
+    width:200px;
+    /* border: 1px solid brown; */
+    height: 200px;
+    background-image:url(dice-06.png);
+    background-size:cover;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    border: none;
+
+}
+.img1:hover{
+    transition: all 2s ease-in-out 0;
+    /* transition: <property> <duration> <timing-function> <delay>; */
+    transform: scale(1.2);
+}
+.img2:hover{
+    transition: all 2s ease-in-out 0;
+    /* transition: <property> <duration> <timing-function> <delay>; */
+    transform: scale(1.2);
+}
+button:hover{
+    background: linear-gradient(150deg, #0B12C7 0%, #B00A77 100%);
+}
+@media (max-width: 1270px) {
+    
+    .headear{
+        font-size:0.7rem;
+    }
+    button:hover{
+        background-color:transparent; 
+    }
+    .img1{
+        width:150px;
+        height:150px;
+        /* background-size: cover; */
+        /* border: 1px solid black; */
+    }
+    .img2{
+        width:150px;
+        height: 150px;
+        background-size: cover;
+    }
+    .box2{
+        width:40vw;
+    }
+    .box3{
+
+        width:40vw;
+    }
+  }
